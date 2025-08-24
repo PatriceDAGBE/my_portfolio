@@ -1,3 +1,4 @@
+
 import Header from "@/components/Header"
 import Hero from "@/components/Hero"
 import Stats from "@/components/Stats"
@@ -14,7 +15,7 @@ export default function Home() {
     ];
 
     return (
-        <div className="relative font-sans text-white items-center justify-items-center min-h-screen py-8 px-72 bg-primary-dark">
+        <div className="font-sans text-white items-center justify-items-center min-h-screen py-8 px-72 bg-primary-dark">
             <div className="
                 relative
                 w-full
