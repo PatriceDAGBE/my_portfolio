@@ -15,7 +15,7 @@ export default function Home() {
     ];
 
     return (
-        <div className="font-sans text-white items-center justify-items-center min-h-screen py-8 px-72 bg-primary-dark">
+        <div className="relative font-sans text-white items-center justify-items-center min-h-screen py-8 px-72 bg-primary-dark">
             <div className="
                 relative
                 w-full

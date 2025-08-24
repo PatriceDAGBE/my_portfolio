@@ -10,11 +10,11 @@ const Header = () => {
 
             {/* Menu items - middle section */}
             <ul className="hidden md:flex space-x-4">
-                <li><a href="#" className="hover:text-amber-800 text-gray-300 text-xl transition-colors">Services</a></li>
-                <li><a href="#" className="hover:text-amber-800 text-gray-300 text-xl transition-colors">Resume</a></li>
-                <li><a href="#" className="hover:text-amber-800 text-gray-300 text-xl transition-colors">Works</a></li>
-                <li><a href="#" className="hover:text-amber-800 text-gray-300 text-xl transition-colors">Skills</a></li>
-                <li><a href="#" className="hover:text-amber-800 text-gray-300 text-xl transition-colors">Testimonial</a></li>
+                <li><a href="#services" className="hover:text-amber-800 text-gray-300 text-xl transition-colors">Services</a></li>
+                <li><a href="#resume" className="hover:text-amber-800 text-gray-300 text-xl transition-colors">Resume</a></li>
+                <li><a href="#works" className="hover:text-amber-800 text-gray-300 text-xl transition-colors">Works</a></li>
+                <li><a href="#skills" className="hover:text-amber-800 text-gray-300 text-xl transition-colors">Skills</a></li>
+                <li><a href="#testimonial" className="hover:text-amber-800 text-gray-300 text-xl transition-colors">Testimonial</a></li>
             </ul>
 
             {/* Contact button - full right section */}

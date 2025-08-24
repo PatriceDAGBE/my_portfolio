@@ -9,3 +9,7 @@
 body {
     background-color: var(--background-dark);
 }
+
+html {
+  scroll-behavior: smooth;
+}
