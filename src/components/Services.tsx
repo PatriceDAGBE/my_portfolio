@@ -30,7 +30,7 @@ const Services = () => {
             <h2 className="text-4xl font-bold mb-2 text-center">Empowering my work with <span className="text-primary">data-driven</span> solutions</h2>
             <p className="text-xl text-center mb-12">I specialize in turning complex information into simple, powerful tools.</p>
             
-            <div className="flex flex-wrap justify-center gap-8 w-full md:gap-16">
+            <div className="flex justify-center gap-8 w-full md:gap-16">
                 {myServices.map((service, index) => {
                     const IconComponent = service.icon;
                     return (
