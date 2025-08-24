@@ -1,5 +1,5 @@
 "use client"
-
+import Image from "next/image";
 import { TypeAnimation } from 'react-type-animation';
 import SocialIcons from '@/components/SocialIcons';
 
@@ -13,7 +13,7 @@ const Hero = () => {
           Transforming information into knowledge through <span className="text-[#7E6CA6]">Data Science.</span>
         </p>
         <p className="text-[22px] mt-6">
-          Hi! I'm{' '}
+          Hi! I&apos;m{' '}
           <TypeAnimation
             sequence={[
               'Patrice DAGBE', 
@@ -47,10 +47,12 @@ const Hero = () => {
                      rounded-full overflow-hidden
                      transition-transform duration-300"
         >
-          <img
+          <Image
             src="/images/patrice_dagbe.png"
             alt="Patrice Dagbe"
+            fill
             className="w-full h-full object-cover"
+            priority
           />
         </div>
       </div>
