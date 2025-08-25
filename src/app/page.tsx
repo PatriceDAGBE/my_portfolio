@@ -46,11 +46,11 @@ export default function Home() {
                             <Services id="services"/>
                             <Resume id="resume"/>
                         </main>
-                        <footer className="row-start-3 flex flex-col gap-[24px] flex-wrap items-center justify-center">
-                            <p>Footer</p>
-                        </footer>
                     </div>
 
+                    <footer className="p-4 mt-8 bg-secondary-dark flex flex-col  items-center">
+                        <p>©2025 PATRICE DAGBE. All rights reserved.</p>
+                    </footer>
                 </div>
                                 
             </div>
