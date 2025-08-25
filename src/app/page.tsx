@@ -4,6 +4,7 @@ import Hero from "@/components/Hero"
 import Stats from "@/components/Stats"
 import Services from "@/components/Services"
 import Resume from "@/components/Resume"
+import Projects from "@/components/Projects"
 
 
 export default function Home() {
@@ -45,11 +46,12 @@ export default function Home() {
                             <Stats myStats={myStatsData}/>
                             <Services id="services"/>
                             <Resume id="resume"/>
+                            <Projects/>
                         </main>
                     </div>
 
-                    <footer className="p-4 mt-8 bg-secondary-dark flex flex-col  items-center">
-                        <p>©2025 PATRICE DAGBE. All rights reserved.</p>
+                    <footer className="p-4 mt-8 flex flex-col rounded-b-xl items-center">
+                        <p>©2025 Patrice DAGBE. All rights reserved.</p>
                     </footer>
                 </div>
                                 

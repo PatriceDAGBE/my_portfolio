@@ -13,3 +13,32 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+/* Custom styles for the Projects section */
+.projects-slider .swiper-pagination {
+  position: relative !important; /* Forces the pagination to be relative to the slider */
+  bottom: -10px !important; /* Moves the pagination dots below the slides*/
+  padding: 10px;
+}
+
+/* Optional: To change the dot colors */
+.projects-slider .swiper-pagination-bullet {
+  background-color: #ffffff78; /* Gray for inactive dots */
+  opacity: 1;
+}
+
+.projects-slider .swiper-pagination-bullet-active {
+  background-color: #946ee5; /* Primary color for the active dot */
+}
+
+/* Styles pour les flèches de navigation de Swiper */
+.projects-slider .swiper-button-prev,
+.projects-slider .swiper-button-next {
+  color: #7E6CA6; /* Change la couleur des flèches en votre couleur primaire */
+}
+
+/* Optionnel : Ajuste la taille et l'opacité */
+.projects-slider .swiper-button-prev:hover,
+.projects-slider .swiper-button-next:hover {
+  opacity: 0.8;
+}
