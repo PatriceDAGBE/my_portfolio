@@ -3,6 +3,7 @@ import Header from "@/components/Header"
 import Hero from "@/components/Hero"
 import Stats from "@/components/Stats"
 import Services from "@/components/Services"
+import Resume from "@/components/Resume"
 
 
 export default function Home() {
@@ -15,10 +16,10 @@ export default function Home() {
     ];
 
     return (
-        <div className="font-sans text-white items-center justify-items-center min-h-screen py-8 px-72 bg-primary-dark">
+        <div className="relative font-sans text-white items-center justify-items-center min-h-screen py-8 px-72 bg-primary-dark">
             <div className="
                 relative
-                w-full
+                w-full h-full
                 rounded-3xl
                 shadow-[16px_16px_20px_#00000008]
                 overflow-hidden
@@ -42,9 +43,10 @@ export default function Home() {
                             <Header/>
                             <Hero/>
                             <Stats myStats={myStatsData}/>
-                            <Services/>
+                            <Services id="services"/>
+                            <Resume id="resume"/>
                         </main>
-                        <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
+                        <footer className="row-start-3 flex flex-col gap-[24px] flex-wrap items-center justify-center">
                             <p>Footer</p>
                         </footer>
                     </div>
